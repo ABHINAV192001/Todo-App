@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "./Parts/Header";
 import { Todos } from "./Parts/Todos";
+import Footer from "./Parts/Footer";
 
 import { AddTodo } from "./Parts/AddTodo";
 
@@ -50,7 +51,7 @@ function App() {
           />
           </Routes>
 
-
+          <Footer/>
     </Router>
   );
 }
